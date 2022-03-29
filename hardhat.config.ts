@@ -51,6 +51,10 @@ export default {
     optimism: {
       url: `https://mainnet.optimism.io`,
     },
+    gw_testnet_v1: {
+      url: `https://godwoken-testnet-web3-v1-rpc.ckbapp.dev`,
+      accounts: [process.env.PRIVATE_KEY],
+    },
   },
   etherscan: {
     // Your API key for Etherscan

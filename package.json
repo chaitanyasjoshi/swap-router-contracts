@@ -63,6 +63,8 @@
   },
   "scripts": {
     "compile": "hardhat compile",
-    "test": "hardhat test"
+    "test": "hardhat test",
+    "deploy:localhost": "hardhat run scripts/deploy.ts --network localhost",
+    "deploy:gwtestnet": "hardhat run scripts/deploy.ts --network gw_testnet_v1"
   }
 }
